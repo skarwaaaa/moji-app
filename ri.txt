@@ -1,0 +1,10 @@
+pip install --upgrade google-cloud-speech
+
+
+import os
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = '/content/secret.json'
+
+
+from google.cloud import speech
+import io
+
